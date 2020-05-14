@@ -19,12 +19,6 @@ def rename_files_in_dir(src_path):
                 os.rename(file_path, new_file_path)
                 counter += 1
 
-
-
-
-
-
-
 if __name__ == '__main__':
     src_path = ''
     rename_files_in_dir('./data/val')
