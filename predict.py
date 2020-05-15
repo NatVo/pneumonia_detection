@@ -9,8 +9,6 @@ def load_conv_model(model_path):
     print(f'Best train loss: {checkpoint["best_train_loss"]}, Best train accuracy: {checkpoint["best_train_accuracy"]}')
     print('-'*150)
 
-
-
 if __name__ == '__main__':
 
     load_conv_model('./checkpoint_test.tar')
